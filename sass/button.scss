@@ -1,0 +1,17 @@
+.btn {
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 26px;
+    border-radius: 6px;
+    &.btn-primary {
+        background-color: $primary-color;
+        color: white;
+    }
+    &.btn-icon {
+        display: flex;
+        align-items: center;
+        img {
+            margin-right: 10px;
+        }
+    }
+}

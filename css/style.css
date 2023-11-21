@@ -1,0 +1,122 @@
+body {
+  font-family: "Tajawal", sans-serif;
+  color: #3C2317;
+  padding: 0;
+  margin: 0;
+}
+body a {
+  text-decoration: none;
+}
+body ul {
+  padding: 0;
+  margin: 0;
+}
+
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px 26px;
+  border-radius: 6px;
+}
+.btn.btn-primary {
+  background-color: #3C2317;
+  color: white;
+}
+.btn.btn-icon {
+  display: flex;
+  align-items: center;
+}
+.btn.btn-icon img {
+  margin-right: 10px;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 25px;
+  margin: 0 auto;
+}
+
+.main {
+  background: url(../img/bg.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 767px;
+  box-sizing: border-box;
+}
+@media (max-width: 700px) {
+  .main {
+    min-height: 1280px;
+    background-position: 19%;
+  }
+}
+.main .navbar {
+  padding: 50px 0;
+}
+.main .navbar .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .navbar .wrapper .logo {
+  display: inline-block;
+  color: #3C2317;
+  font-size: 38px;
+  font-weight: bold;
+}
+.main .content {
+  padding-top: 50px;
+  max-width: 660px;
+}
+.main .content .title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.main .content h1 {
+  margin-bottom: 40px;
+}
+.main .content h3 {
+  letter-spacing: 1.8px;
+}
+@media (max-width: 700px) {
+  .main .content {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .main .content .title {
+    margin-bottom: 20px;
+  }
+}
+
+.footer {
+  background-color: #3C2317;
+  color: #F4DFC8;
+  padding: 50px;
+}
+.footer a {
+  color: #F4DFC8;
+}
+.footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media (max-width: 960px) {
+  .footer .wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer .wrapper > * {
+    margin: 30px 0;
+  }
+}
+.footer .wrapper .footer-links li {
+  margin-bottom: 10px;
+}
+.footer .wrapper .follow-us {
+  display: flex;
+  align-items: center;
+}
+.footer .wrapper .follow-us span {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
